@@ -88,6 +88,14 @@ MergedPartyData$StrongmanRule <- MergedPartyData$V21
 MergedPartyData$LogStrongmanRule <- log(MergedPartyData$V21)
 
 
+MergedPartyData$FormalLocalOffices <- MergedPartyData$formal
+MergedPartyData$LogFormalLocal <- log(MergedPartyData$formal)
+
+
+MergedPartyData$InformalLocal <- MergedPartyData$informal
+MergedPartyData$LogInformalLocal <- log(MergedPartyData$informal)
+
+
 saveRDS(MergedPartyData, file = "MergedPartyData.rds")
 
 
@@ -261,5 +269,24 @@ model4b <- lm(LogValueInfusion ~ LogPartyAge + polar + enpp + subsid + legisoff 
 summary(model4b)
 
 stargazer(model4,model4a,model4b)
+
+model5 <- lm(LogPopulistSaliency ~ LogPopulistRhetoric + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model5)
+
+stargazer(model5)
+
+
+model6a <- lm(LogInformalLocal ~  LogPopulistSaliency + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model6a)
+
+model6b <- lm(LogFormalLocal ~  LogPopulistSaliency + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model6a)
+
+
+
+stargazer(model6a,model6b)
+
+
+
 
 detach(MergedPartyData)
