@@ -68,6 +68,26 @@ MergedPartyData <- read.csv("C:/R Studio Files/Elite investments in political in
 
 View(MergedPartyData)
 
+MergedPartyData$LogValueInfusion <- log(MergedPartyData$valueinf)
+
+MergedPartyData$LogRoutinization <- log(MergedPartyData$routinization)
+
+MergedPartyData$LogPartyAge <- log(MergedPartyData$page)
+
+MergedPartyData$LogPopulistRhetoric <- log(MergedPartyData$V8_Scale)
+
+MergedPartyData$LogPopulistSaliency <- log(MergedPartyData$V9)
+
+MergedPartyData$PeopleShouldDecide <- MergedPartyData$V19
+MergedPartyData$LogPeopleDecide <- log(MergedPartyData$V19)
+
+MergedPartyData$WillofthePeople <- MergedPartyData$V18
+MergedPartyData$LogWillofPeople <- log(MergedPartyData$V18)
+
+MergedPartyData$StrongmanRule <- MergedPartyData$V21
+MergedPartyData$LogStrongmanRule <- log(MergedPartyData$V21)
+
+
 ### Comparing some summary statistics between the merged data and the original data sources
 ### Looking for any differences that might indicate bias
 
@@ -106,6 +126,13 @@ attach(MergedPartyData)
 #####
 ##Plots
 #####
+
+hist(V8_Scale)
+hist(V9)
+hist(V21)
+hist(page)
+hist(valueinf)
+hist(routinization)
 
 with(MergedPartyData,scatter.smooth(page,V8_Scale, xlab = "Party Age", ylab = 
                                       "Level of populism (1-10)", lpars = list(col = "red", lwd = 5, lty = 1)))
@@ -146,65 +173,83 @@ with(MergedPartyData,scatter.smooth(V8_Scale,V9, xlab = "Favors strongman rule, 
 ###Models
 ######
 
-model1 <- lm(routinization ~ V9 + page)
+###Models based on saliency of populist rhetoric and Routinization
+
+attach(MergedPartyData)
+
+model1 <- lm(LogRoutinization ~ LogPopulistSaliency  + LogPartyAge)
 summary(model1)
 
-model1a <- lm(routinization ~ V9 + polar + enpp + subsid + legisoff + execoff + formation + group + page)
+model1a <- lm(LogRoutinization ~ LogPopulistSaliency + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
 summary(model1a)
 
-model1b <- lm(routinization ~ polar + enpp + subsid + legisoff + execoff + formation + group + page)
+model1b <- lm(LogRoutinization ~ LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model1b)
+
+model1c <- lm(LogRoutinization ~ LogPartyAge)
 summary(model1c)
 
-model1c <- lm(routinization ~ page)
-
-model1d <- lm(routinization ~ V9)
+model1d <- lm(LogRoutinization ~ LogPopulistSaliency)
+summary(model1d)
 
 stargazer(model1,model1a,model1b,model1c,model1d)
 
 detach(MergedPartyData)
 
-####Anova - had to remove one row with NA
-
-attach(MergedPartyData2)
-
-MergedPartyData2 <- MergedPartyData
-
-MergedPartyData2 <- MergedPartyData2[!rowSums(is.na(MergedPartyData2["V8_Scale"])),]
-
-model1a <- lm(routinization ~ V8_Scale + polar + enpp + subsid + legisoff + execoff + formation + group + page, MergedPartyData2)
-summary(model1a)
-
-model1b <- lm(routinization ~ polar + enpp + subsid + legisoff + execoff + formation + group + page, MergedPartyData2)
-summary(model1b)
-
-anova1 <- anova(model1b,model1a)
-anova1
-summary(anova1)
-stargazer(anova1)
-
-detach(MergedPartyData2)
-
-####
+###models based on Populist Saliency and Value Infusion
 
 attach(MergedPartyData)
 
-model1e <- lm(routinization ~ V9 + zpolar + zenpp + zsubsid + zlegisoff + zexecoff + zformation + zgroup + zpage)
-summary(model1e)
-
-model2 <- lm(valueinf ~ V9 + polar + enpp + subsid + legisoff + execoff + formation + group + page)
+model2 <- lm(LogValueInfusion ~ LogPopulistSaliency  + LogPartyAge)
 summary(model2)
 
-model2e <- lm(valueinf ~ V9 + zpolar + zenpp + zsubsid + zlegisoff + zexecoff + zformation + zgroup + zpage)
-summary(model2e)
+model2a <- lm(LogValueInfusion ~ LogPopulistSaliency + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model2a)
 
-stargazer(model1,model1e,model2,model2e)
+model2b <- lm(LogValueInfusion ~ LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model2b)
+
+model2c <- lm(LogValueInfusion ~ LogPartyAge)
+summary(model2c)
+
+model2d <- lm(LogValueInfusion ~ LogPopulistSaliency)
+summary(model2d)
+
+stargazer(model2,model2a,model2b,model2c,model2d)
+
+detach(MergedPartyData)
+
+###Models based on Favoring Strongman Rules with both dependent variables and all controls
+
+
+attach(MergedPartyData)
+
+model3 <- lm(LogRoutinization ~ LogStrongmanRule + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model3)
+
+model3a <- lm(LogValueInfusion ~ LogStrongmanRule + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model3a)
+
+model3b <- lm(LogValueInfusion ~ LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model3b)
+
+stargazer(model3,model3a,model3b)
+
+detach(MergedPartyData)
 
 
 
-model3a <- lm(routinization ~ page + as.factor(ctyname))
-  
-model3b <- lm(valueinf ~ page + as.factor(ctyname)) 
+attach(MergedPartyData)
 
-stargazer(model3a,model3b)
+model4 <- lm(LogRoutinization ~ LogWillofPeople + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model4)
+
+model4a <- lm(LogValueInfusion ~ LogWillofPeople + LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model4a)
+
+model4b <- lm(LogValueInfusion ~ LogPartyAge + polar + enpp + subsid + legisoff + execoff + formation + group)
+summary(model4b)
+
+stargazer(model4,model4a,model4b)
 
 detach(MergedPartyData)
