@@ -1,0 +1,115 @@
+OBS-NPD,ID_GPS,ISO,Partyname,Partyabb,CPARTY-NPD,CPARTYABB,Type_Values,Type_Populism,Type_Populist_Values,V3,V8_Scale,V9,V18,V19,V20,V21
+66,17,ARG,Cambiemos,PRO-UCR,ARG_ Cambiemos,ARG_ PRO-UCR,4,2,2,7.2,3.214285714,5.461538462,6.666666667,5.166666667,6.8,3.111111111
+65,18,ARG,Citizen's Unity,UC,ARG_ Citizen's Unity,ARG_ UC,1,4,3,6.8125,8.916666667,8.928571429,4.555555556,7,2.5,8
+1,19,ARG,Civic Front for Santiago,FCpS,ARG_ Civic Front for Santiago,ARG_ FCpS,4,4,4,9.2,8.5,10,4.333333333,7,2,8.666666667
+2,20,ARG,Evolución,Evolucion,ARG_ Evolución,ARG_ Evolución,3,1,1,7.5,2.3,3.909090909,7.333333333,6.666666667,7,1.75
+3,21,ARG,Front for the Renewal of Concord,FR,ARG_ Front for the Renewal of Concord,ARG_ FR,4,4,4,8.333333333,9,8.333333333,6.5,NA,4,NA
+67,22,ARG,Justicialist Party,PJ,ARG_ Justicialist Party,ARG_ PJ,4,4,4,8.133333333,8.153846154,8.466666667,4.4,6.4,2.75,7.666666667
+4,23,ARG,"Progressive, Civic and Social Front",FPCyS,"ARG_ Progressive, Civic and Social Front",ARG_ FPCyS,1,1,1,7.375,2.444444444,3.857142857,5.75,3,4,2.285714286
+5,24,ARG,Union for Córdoba ,UpC,ARG_ Union for Córdoba ,ARG_ UpC,4,3,4,6.375,5.166666667,5.666666667,5.4,6,3,5
+6,25,ARG,United for a New Alternative,1País,ARG_ United for a New Alternative,ARG_ 1País,4,3,4,6.5,6.125,5.2,7.25,7,5,5.6
+7,26,ARG,Workers' Left Front,FIT,ARG_ Workers' Left Front,ARG_ FIT,1,3,3,3.571428571,6.7,6.222222222,3.857142857,1.333333333,6.666666667,3.8
+8,116,BOL,Christian Democratic Party,PDC,BOL_ Christian Democratic Party,BOL_ PDC,4,3,4,8,5.75,5,4,6.333333333,5.5,3
+9,117,BOL,Movement for Socialism,MAS,BOL_ Movement for Socialism,BOL_ MAS,1,3,3,5,7.375,8.428571429,3.833333333,3.571428571,7.4,8.857142857
+10,118,BOL,National Unity Front,UN,BOL_ National Unity Front,BOL_ UN,4,2,2,5.5,3,4.333333333,3.8,5,5,2.571428571
+68,122,BRA,Brazilian Democratic Movement,MDB,BRA_ Brazilian Democratic Movement,BRA_ MDB,4,2,2,7.304347826,4.391304348,4.782608696,6.230769231,6.142857143,4.176470588,4.789473684
+75,119,BRA,Brazilian Republican Party,PRB,BRA_ Brazilian Republican Party,BRA_ PRB,4,4,4,7.428571429,7.823529412,7.647058824,6.461538462,7.533333333,7,6.384615385
+72,120,BRA,Brazilian Socialist Party,PSB,BRA_ Brazilian Socialist Party,BRA_ PSB,1,2,1,4.129032258,3.5,4.12,3.411764706,4.260869565,4.523809524,2.260869565
+74,121,BRA,Democrats,DEM,BRA_ Democrats,BRA_ DEM,4,2,2,5.666666667,4.714285714,5.222222222,7.684210526,8.12,5.571428571,3.88
+71,123,BRA,Progressive Party,PP,BRA_ Progressive Party,BRA_ PP,4,3,4,7.722222222,6.277777778,6.181818182,6.714285714,7.65,6.235294118,7
+70,125,BRA,Social Democracy Party,PSDB,BRA_ Social Democracy Party,BRA_ PSDB,3,2,1,4.703703704,3.64,4.541666667,7,7,5.533333333,3
+73,128,BRA,Social Liberal Party ,PSL,BRA_ Social Liberal Party,BRA_ PSL,4,4,4,7.413793103,8.757575758,9.194444444,4.875,6.222222222,9.222222222,8.833333333
+69,129,BRA,Workers' Party,PT,BRA_ Workers' Party,BRA_ PT,1,2,1,2.580645161,3.785714286,5.222222222,3.192307692,2.892857143,4.35,2.32
+11,152,CHL,Broad Front,FA,CHL_ Broad Front,CHL_ FA,1,3,3,7.428571429,7.375,7.1,1.875,1.222222222,7.666666667,2.625
+12,153,CHL,Chile Let's Go,CV,CHL_ Chile Let's Go,CHL_ CV,4,2,2,6.333333333,3.727272727,4.5,6,7.5,5.285714286,5
+13,154,CHL,Democratic Convergence,DC,CHL_ Democratic Convergence,CHL_ DC,1,2,1,7.6,4,4,3.333333333,3.714285714,4.428571429,3.428571429
+14,155,CHL,The Force of the Majority,FM,CHL_ The Force of the Majority,CHL_ FM,1,2,1,6,4,4.6,4.142857143,5.375,4.166666667,3.875
+82,181,COL,Alternative Democratic Polo Party,PDA,COL_ Alternative Democratic Polo Party,COL_ PDA,1,3,3,4.75,6,5.666666667,1.5,3,9,1.333333333
+15,182,COL,Citizen Option Party,OC,COL_ Citizen Option Party,COL_ OC,0,NA,0,NA,NA,NA,NA,NA,NA,NA
+16,183,COL,Coalition List of the Decency,List of,COL_ Coalition List of the Decency,COL_ List of Decency,3,1,1,3.5,0,3,0,NA,10,0
+76,184,COL,Colombian Conservative Party,PCC,COL_ Colombian Conservative Party,COL_ PCC,4,3,4,5.5,7,6.666666667,3.333333333,3.333333333,6,4
+77,185,COL,Colombian Liberal Party,PLC,COL_ Colombian Liberal Party,COL_ PLC,1,1,1,7.666666667,1.5,1.5,2,5.333333333,5.5,2
+83,186,COL,Democratic Center Party,PCD,COL_ Democratic Center Party,COL_ PCD,4,4,4,8.75,7.5,7.333333333,2,2.333333333,7.333333333,8.5
+81,187,COL,Green Alliance Party,VA,COL_ Green Alliance Party,COL_ VA,1,2,1,4,4.25,3.666666667,1.5,4,9.5,2.666666667
+80,188,COL,Independent Movement of Absolute Renovation,Mira,COL_ Independent Movement of Absolute Renovation,COL_ Mira,4,4,4,1,9.5,10,1,0,10,NA
+78,189,COL,National Unity Social Party / Party of the U,la U,COL_ National Unity Social Party / Party of the U,COL_ la U,4,3,4,10,6.333333333,10,3.333333333,5.5,9,4
+79,190,COL,Radical Change Party,CR,COL_ Radical Change Party,COL_ CR,4,3,4,7.666666667,5,4.333333333,2.333333333,6.5,6.5,7
+17,204,CRI,Accessibility without Exclusion,AE,CRI_ Accessibility without Exclusion,CRI_ AE,4,3,4,6.833333333,5.833333333,6.8,5.5,8,8.5,3
+18,205,CRI,Broad Front,FA,CRI_ Broad Front,CRI_ FA,1,2,1,4.625,2.875,4,2.5,3,5.875,1.666666667
+19,206,CRI,Citizens Action Party,PAC,CRI_ Citizens Action Party,CRI_ PAC,1,1,1,5.6,1.5,3,3,5.6,4.571428571,3
+20,207,CRI,Libertarian Movement Party,PML,CRI_ Libertarian Movement Party,CRI_ PML,3,3,3,4.428571429,6.285714286,6.8,7.8,5.8,8.4,3.428571429
+21,208,CRI,National Integration,PIN,CRI_ National Integration,CRI_ PIN,4,3,4,9,6.666666667,7.333333333,6.333333333,9.5,8,3.333333333
+22,209,CRI,National Liberation Party,PLN,CRI_ National Liberation Party,CRI_ PLN,4,2,2,6.4,2.8,3.2,5.833333333,8.6,3.2,4
+23,210,CRI,National Restoration,PREN,CRI_ National Restoration,CRI_ PREN,4,4,4,5.5,8.375,8.142857143,6.833333333,9,8.166666667,4.333333333
+24,211,CRI,New Generation Party,PNG,CRI_ New Generation Party,CRI_ PNG,4,3,4,7.333333333,7.2,7,3.25,8,8.166666667,1.75
+25,212,CRI,Social Christian Unity Party,PUSC,CRI_ Social Christian Unity Party,CRI_ PUSC,4,3,4,5,6,6.2,6,8.666666667,3,4.375
+26,213,CRI,Social-Christian Republican Party,PRS,CRI_ Social-Christian Republican Party,CRI_ PRS,4,3,4,8.75,5.333333333,5,3.5,9.666666667,6.333333333,2
+84,252,DOM,Dominican Liberation Party,PLD,DOM_ Dominican Liberation Party,DOM_ PLD,0,4,4,6.5,8.333333333,8.333333333,6.5,10,1.666666667,8.5
+27,253,DOM,Institutional Social Democratic Bloc,BIS,DOM_ Institutional Social Democratic Bloc,DOM_ BIS,0,4,4,9,8.5,9,2,10,2.333333333,8.5
+28,254,DOM,Liberal Reformist Party,PRL,DOM_ Liberal Reformist Party,DOM_ PRL,4,4,4,8.333333333,8.666666667,8.666666667,6.5,7,1.333333333,9.25
+29,255,DOM,Modern Revolutionary Party,PRM,DOM_ Modern Revolutionary Party,DOM_ PRM,2,3,4,6.6,6,7,2.5,3,4.75,5
+85,256,DOM,Social Christian Reformist Party,PRSC,DOM_ Social Christian Reformist Party,DOM_ PRSC,4,3,4,7,7.25,8.5,8.5,9.5,2,8.75
+90,262,ECU,Creating Opportunities Movement,CREO,ECU_ Creating Opportunities Movement,ECU_ CREO,4,2,2,5,4.6,6,4.333333333,7.75,5.5,2
+91,263,ECU,Fuerza Ecuador,FE,ECU_ Fuerza Ecuador,ECU_ FE,4,4,4,7.75,9.2,8.8,2.333333333,4.333333333,8.5,6.333333333
+88,264,ECU,January 21 Patriotic Society Party,PSP,ECU_ January 21 Patriotic Society Party,ECU_ PSP,4,4,4,6.25,8,7.333333333,2,2.666666667,9,4.333333333
+86,265,ECU,Movimiento Alianza Pais,PAIS,ECU_ Movimiento Alianza Pais,ECU_ PAIS,2,3,4,5,7.4,7.2,4.5,7.5,8,6.333333333
+89,266,ECU,Pachakutik Plurinational Unity Movement - New Country,MUPP,ECU_ Pachakutik Plurinational Unity Movement - New Country,ECU_ MUPP,1,3,3,5,5.5,3.25,1.6,0.8,8.333333333,5.75
+87,267,ECU,Party of the Democratic Left,ID,ECU_ Party of the Democratic Left,ECU_ ID,1,1,1,5,2,3.2,3.5,3,3.5,2.2
+92,268,ECU,Social Christian Party,PSC,ECU_ Social Christian Party,ECU_ PSC,4,4,4,3.4,7.75,7.8,4.4,8.25,5.5,3.25
+30,374,GTM,"Commitment, Renewal, and Order Party",CREO,"GTM_ Commitment, Renewal, and Order Party",GTM_ CREO,4,2,2,NA,3,2,NA,NA,NA,NA
+31,375,GTM,Encounter for Guatemala,EG,GTM_ Encounter for Guatemala,GTM_ EG,1,1,1,3,2,4,NA,NA,NA,3
+32,376,GTM,Everyone Together for Guatemala,Todos,GTM_ Everyone Together for Guatemala,GTM_ Todos,0,2,2,7,3,5.5,NA,NA,NA,NA
+33,377,GTM,Guatemalan National Revolutionary Unity,GNRU,GTM_ Guatemalan National Revolutionary Unity,GTM_ GNRU,1,2,1,3.5,2.5,4,2,3,NA,6
+34,378,GTM,National Convergence Front,FCN,GTM_ National Convergence Front,GTM_ FCN,4,4,4,7,9,9,7,NA,NA,9
+35,379,GTM,National Union for Change,UCN,GTM_ National Union for Change,GTM_ UCN,0,NA,0,7,NA,NA,4,NA,NA,NA
+97,380,GTM,National Unity for Hope,UNE,GTM_ National Unity for Hope,GTM_ UNE,2,2,2,4,2.5,4,4,NA,NA,4
+36,381,GTM,Patriot Party,PP,GTM_ Patriot Party,GTM_ PP,4,4,4,NA,9,9,NA,NA,NA,9
+37,382,GTM,Renewed Democratic Liberty Party,LIDER,GTM_ Renewed Democratic Liberty Party,GTM_ LIDER,0,4,0,9,9,9,NA,NA,NA,8
+38,383,GTM,Vision with Values,Viva,GTM_ Vision with Values,GTM_ Viva,4,4,4,7,9,5.5,7,NA,NA,9
+98,631,MEX,Coalición PRI-PVEM ,PRI-PVEM,MEX_ Coalición PRI-PVEM ,MEX_ PRI-PVEM,4,2,2,5.833333333,4.166666667,6.058823529,6,6.533333333,3.333333333,3.9375
+39,632,MEX,Independent,Ind.,MEX_ Independent,MEX_ Ind.,3,2,1,7.777777778,3.333333333,1.333333333,6.333333333,2,7.6,0.75
+102,633,MEX,Movimiento Ciudadano,MC,MEX_ Movimiento Ciudadano,MEX_ MC,1,2,1,5.307692308,3.55,5.153846154,5.25,4.818181818,4.444444444,2.142857143
+104,634,MEX,Movimiento Regeneracion Nacional,MORENA,MEX_ Movimiento Regeneracion Nacional,MEX_ MORENA,1,4,3,7.4375,8.695652174,9.363636364,1.647058824,1.105263158,8.666666667,8.470588235
+99,635,MEX,Partido Accion Nacional,PAN,MEX_ Partido Accion Nacional,MEX_ PAN,4,2,2,4.75,2.636363636,4.117647059,7.555555556,7.615384615,3.272727273,2.470588235
+100,636,MEX,Partido de la Revolucion Democrática,PRD,MEX_ Partido de la Revolucion Democrática,MEX_ PRD,1,2,1,5.888888889,4.533333333,6.176470588,4.222222222,3.307692308,5.545454545,3.058823529
+101,637,MEX,Partido del Trabajo,PT,MEX_ Partido del Trabajo,MEX_ PT,1,3,3,7.7,7.35,7.833333333,1.857142857,1.875,8.166666667,7.416666667
+105,638,MEX,Partido Encuentro Social,PES,MEX_ Partido Encuentro Social,MEX_ PES,4,3,4,6.857142857,5.642857143,5.428571429,4.2,3.333333333,6.5,6
+40,639,MEX,Partido Humanista,PH,MEX_ Partido Humanista,MEX_ PH,4,3,4,7.727272727,6,7.333333333,2.75,5.666666667,5.8,6.4
+103,640,MEX,Partido Nueva Alianza,PANAL,MEX_ Partido Nueva Alianza,MEX_ PANAL,3,2,1,6.583333333,4,4.692307692,4.333333333,6.4,4.75,3.583333333
+41,711,NIC,Alliance for the Republic,APRE,NIC_ Alliance for the Republic,NIC_ APRE,0,NA,0,10,NA,NA,NA,NA,NA,NA
+42,712,NIC,Conservative Party of Nicaragua,PC,NIC_ Conservative Party of Nicaragua,NIC_ PC,4,2,2,1,3,4,1,3.5,10,0
+43,713,NIC,Independent Liberal Party,PLI,NIC_ Independent Liberal Party,NIC_ PLI,4,1,2,6,2.333333333,6,NA,4,10,1.666666667
+44,714,NIC,Liberal Constitutionalist Party,PLC,NIC_ Liberal Constitutionalist Party,NIC_ PLC,4,2,2,6,4.333333333,7,2,4,10,4
+45,715,NIC,Nicaraguan Liberal Alliance,ALN,NIC_ Nicaraguan Liberal Alliance,NIC_ ALN,4,NA,0,8.5,NA,NA,NA,7,NA,NA
+46,716,NIC,Sandinista National Liberation Front,FSLN,NIC_ Sandinista National Liberation Front,NIC_ FSLN,1,4,3,3.666666667,9,10,7.333333333,5,4,10
+47,760,PAN,Democratic Change,CD,PAN_ Democratic Change,PAN_ CD,0,4,0,7.5,7.666666667,6.25,7.333333333,7.333333333,3,6.333333333
+48,761,PAN,Democratic Revolutionary Party,PRD,PAN_ Democratic Revolutionary Party,PAN_ PRD,3,3,3,7.5,7,2,4.333333333,5,NA,4.5
+49,762,PAN,Independents,Ind.,PAN_ Independents,PAN_ Ind.,1,2,1,NA,3.5,3.5,2,3,9,1.5
+50,763,PAN,Liberal Republican Nationalist Movement,MOLIRENA,PAN_ Liberal Republican Nationalist Movement,PAN_ MOLIRENA,4,NA,0,9,NA,3,7,7,NA,7
+51,764,PAN,Panemeñista Party,PP,PAN_ Panemeñista Party,PAN_ PP,4,4,4,6.333333333,7.5,4.5,7,7.5,3,5.5
+107,765,PER,Alliance for the Progress of Peru,APU,PER_ Alliance for the Progress of Peru,PER_ APU,4,4,4,8.5,9,7.25,4.5,8,6.5,4
+110,766,PER,Broad Front,FA,PER_ Broad Front,PER_ FA,1,3,3,7.2,5.6,7.166666667,3,4.4,8.8,3.25
+109,767,PER,Peruvians for Change,PKK,PER_ Peruvians for Change,PER_ PKK,4,2,2,7.5,4.6,5.166666667,7,6.6,5.333333333,1.5
+106,768,PER,Popular Action,AP,PER_ Popular Action,PER_ AP,4,2,2,8.25,4.25,5.8,6.666666667,5.25,6,4.25
+52,769,PER,Popular Alliance,PCC,PER_ Popular Alliance,PER_ PCC,4,3,4,8.75,5.5,6.2,NA,9,4.75,4.5
+108,770,PER,Popular Force,FP,PER_ Popular Force,PER_ FP,4,4,4,8,8.25,8.666666667,3.5,7.4,5.2,6
+53,797,PRY,Authentic Liberal Radical Party,PLRA,PRY_ Authentic Liberal Radical Party,PRY_ PLRA,4,3,4,7.555555556,6.125,5.8,4.9,8.428571429,5.75,4.2
+54,798,PRY,Beloved Fatherland,PQ,PRY_ Beloved Fatherland,PRY_ PQ,4,3,4,5.6,5,5.142857143,4.555555556,7.222222222,7,3.5
+55,799,PRY,Green Party,PVP,PRY_ Green Party,PRY_ PVP,4,3,4,6,5,3.75,2.5,4,7,0
+56,800,PRY,Let's Do It,PH,PRY_ Let's Do It,PRY_ PH,4,3,4,7.5,6,5.222222222,4.875,5.666666667,8,3
+57,801,PRY,National Crusade Movement,MCN,PRY_ National Crusade Movement,PRY_ MCN,4,4,4,7.1,9.6,9.8,5.444444444,6.666666667,9.6,4.25
+58,802,PRY,National Encounter Party,PEN,PRY_ National Encounter Party,PRY_ PEN,4,2,2,6.75,4.8,3.777777778,4.375,3.571428571,8.1,1.875
+59,803,PRY,National Republican Association - Colorado Party,ANR,PRY_ National Republican Association - Colorado Party,PRY_ ANR,4,4,4,7,8,7.222222222,4.7,8.444444444,4.857142857,7.125
+95,852,SLV,Christian Democratic Party,PDC,SLV_ Christian Democratic Party,SLV_ PDC,4,2,2,5.8,3.666666667,3.666666667,3,6.333333333,5.5,3
+94,853,SLV,Farabundo Marti National Liberation Front,FMLN,SLV_ Farabundo Marti National Liberation Front,SLV_ FMLN,1,3,3,5.8,5.166666667,4.8,3.5,4.6,6,4
+60,855,SLV,Grand Alliance for National Unity,GANA,SLV_ Grand Alliance for National Unity,SLV_ GANA,4,3,4,7,6.8,6,3.5,7,8.333333333,6
+96,858,SLV,National Coalition Party,PCN,SLV_ National Coalition Party,SLV_ PCN,4,3,4,5,5.25,4.5,7,8.5,6,8.666666667
+93,860,SLV,Nationalist Republican Alliance,ARENA,SLV_ Nationalist Republican Alliance,SLV_ ARENA,4,3,4,6.25,5.2,5.2,7.666666667,8,6,5.75
+113,995,URY,Broad Front,FA,URY_ Broad Front,URY_ FA,1,2,1,2.75,3.333333333,4.666666667,3.25,2.444444444,2.222222222,3
+111,996,URY,Colorado Party,PC,URY_ Colorado Party,URY_ PC,4,1,2,3.888888889,2.1,2.625,5.25,3.75,3.555555556,2.125
+114,997,URY,Independent Party,PI,URY_ Independent Party,URY_ PI,1,1,1,3.428571429,1.6,1.833333333,5,4.25,3,1.9
+112,998,URY,National Party,PN,URY_ National Party,URY_ PN,4,1,2,3.545454545,2.090909091,2,5,5.333333333,3.777777778,2.857142857
+61,999,URY,Popular Assembly,AP,URY_ Popular Assembly,URY_ AP,1,3,3,3.888888889,6,4,5,2.2,5.666666667,2.714285714
+62,1006,VEN,Democratic Unity Roundtable,MUD,VEN_ Democratic Unity Roundtable,VEN_ MUD,3,2,1,6.230769231,4.266666667,7.818181818,3.727272727,5.5,5.3,1.769230769
+63,1007,VEN,Others,Other,VEN_ Others,VEN_ Other,2,3,4,7.75,5,5,4,5.333333333,8,3
+64,1008,VEN,United Socialist Party of Venezuela/Great Patriotic Pole,PSUV/GPP,VEN_ United Socialist Party of Venezuela/Great Patriotic Pole,VEN_ PSUV/GPP,2,4,4,5.2,9.266666667,9.428571429,3,4.272727273,8.636363636,8.642857143
