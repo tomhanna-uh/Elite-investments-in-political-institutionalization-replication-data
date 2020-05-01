@@ -88,6 +88,9 @@ MergedPartyData$StrongmanRule <- MergedPartyData$V21
 MergedPartyData$LogStrongmanRule <- log(MergedPartyData$V21)
 
 
+saveRDS(MergedPartyData, file = "MergedPartyData.rds")
+
+
 ### Comparing some summary statistics between the merged data and the original data sources
 ### Looking for any differences that might indicate bias
 
@@ -137,27 +140,34 @@ hist(routinization)
 with(MergedPartyData,scatter.smooth(page,V8_Scale, xlab = "Party Age", ylab = 
                                       "Level of populism (1-10)", lpars = list(col = "red", lwd = 5, lty = 1)))
 
-with(MergedPartyData,scatter.smooth(Type_Populism,valueinf, xlab = "Level of populist-pluralist rhetoric (Ordinal Scale)", ylab = 
-                                  "Values infusion", lpars = list(col = "red", lwd = 5, lty = 1)))
 
-with(MergedPartyData,scatter.smooth(Type_Populist_Values,valueinf, xlab = "Typology of Rhetoric (Ordinal Scale)", ylab = 
-                                      "Values infusion", lpars = list(col = "red", lwd = 5, lty = 1)))
+with(MergedPartyData,scatter.smooth(LogPartyAge,LogPopulistRhetoric, xlab = "Party Age (logged)", ylab = 
+                                      "Level of populism (logged)", lpars = list(col = "red", lwd = 5, lty = 1)))
 
-with(MergedPartyData,scatter.smooth(Type_Populist_Values,routinization, xlab = "Typology of Rhetoric (Ordinal Scale)", ylab = 
-                                      "Routinization", lpars = list(col = "red", lwd = 5, lty = 1)))
+
 
 with(MergedPartyData,scatter.smooth(V9,valueinf, xlab = "Saliency of populist rhetoric", ylab = 
                                       "Values infusion", lpars = list(col = "red", lwd = 5, lty = 1)))
+
+
+with(MergedPartyData,scatter.smooth(LogPopulistSaliency,LogValueInfusion, xlab = "Saliency of populist rhetoric (logged)", ylab = 
+                                      "Values infusion (logged)", lpars = list(col = "red", lwd = 5, lty = 1)))
 
 
 with(MergedPartyData,scatter.smooth(V9,routinization, xlab = "Saliency of populist rhetoric", ylab = 
                                       "Routinization", lpars = list(col = "red", lwd = 5, lty = 1)))
 
+with(MergedPartyData,scatter.smooth(LogPopulistSaliency,LogRoutinization, xlab = "Saliency of populist rhetoric (logged)", ylab = 
+                                      "Routinization (logged)", lpars = list(col = "red", lwd = 5, lty = 1)))
 
-with(MergedPartyData,scatter.smooth(V9,valueinf, xlab = "Saliency of populist rhetoric", ylab = 
-                                      "Values infusion", lpars = list(col = "red", lwd = 5, lty = 1)))
+
+
 
 with(MergedPartyData,scatter.smooth(V21,valueinf, xlab = "Favors strongman rule, opposes checks and balances", ylab = 
+                                      "Values infusion", lpars = list(col = "red", lwd = 5, lty = 1)))
+
+
+with(MergedPartyData,scatter.smooth(LogStrongmanRule,LogValueInfusion, xlab = "Favors strongman rule, opposes checks and balances", ylab = 
                                       "Values infusion", lpars = list(col = "red", lwd = 5, lty = 1)))
 
 
@@ -165,8 +175,8 @@ with(MergedPartyData,scatter.smooth(V21,routinization, xlab = "Favors strongman 
                                       "routinization", lpars = list(col = "red", lwd = 5, lty = 1)))
 
 
-with(MergedPartyData,scatter.smooth(V8_Scale,V9, xlab = "Favors strongman rule, opposes checks and balances", ylab = 
-                                      "Populist Rhetoric", lpars = list(col = "red", lwd = 5, lty = 1)))
+with(MergedPartyData,scatter.smooth(V8_Scale,V9, xlab = "Populist Rhetoric", ylab = 
+                                      "Saliency of populist rhetoric", lpars = list(col = "red", lwd = 5, lty = 1)))
 
 
 ######
