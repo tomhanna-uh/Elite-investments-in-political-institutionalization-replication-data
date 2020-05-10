@@ -105,6 +105,10 @@ saveRDS(MergedPartyData, file = "MergedPartyData.rds")
 summary(Global_Party_Survey_by_Party_Stata_V1_10_Feb_2020$V8_Scale)
 summary(MergedPartyData$V8_Scale)
 
+summary(Global_Party_Survey_by_Party_Stata_V1_10_Feb_2020$V9)
+summary(MergedPartyData$V9)
+
+
 summary(Global_Party_Survey_by_Party_Stata_V1_10_Feb_2020$Type_Values)
 summary(MergedPartyData$Type_Values)
 
@@ -286,7 +290,9 @@ summary(model6a)
 
 stargazer(model6a,model6b)
 
-
+summary(MergedPartyData$page)
+summary(MergedPartyData$V9)
+summary(MergedPartyData$V8_Scale)
 
 
 detach(MergedPartyData)
